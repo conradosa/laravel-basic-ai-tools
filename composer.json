@@ -1,8 +1,8 @@
 {
     "name": "conrado/laravel-basic-ai-tools",
-    "description": "Basic tools for Laravel using the Open AI API",
+    "description": "Basic tools for Laravel using the OpenAI API",
     "keywords": ["laravel","php", "basic", "tools", "openai", "sdk", "gpt-4o-mini", "4o-mini", "api", "client", "natural", "language", "processing"],
-    "type": "library",
+    "type": "composer-plugin",
     "license": "MIT",
     "authors": [
         {
@@ -22,6 +22,10 @@
         "guzzlehttp/guzzle": "^7.9.3",
         "laravel/framework": "^11.29|^12.12",
         "openai-php/client": "^0.16.0",
-        "openai-php/laravel": "^0.16.0"
+        "openai-php/laravel": "^0.16.0",
+        "composer-plugin-api": "^2.0"
+    },
+    "extra": {
+        "class": "Conrado\\LaravelBasicToolsForAI\\Composer\\AsciiPlugin"
     }
 }
