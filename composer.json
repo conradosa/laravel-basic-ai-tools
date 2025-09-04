@@ -10,7 +10,7 @@
             "email": "conrado.salomao@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Conrado\\LaravelBasicToolsForAI\\": "src/"
