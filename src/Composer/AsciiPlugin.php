@@ -80,6 +80,10 @@ final class AsciiPlugin implements PluginInterface, EventSubscriberInterface
     private function printAscii(): void
     {
         $ascii = <<<'ASCII'
+
+----------------------------------------------------------------------
+
+
   /$$$$$$                                               /$$          
  /$$__  $$                                             | $$          
 | $$  \__/  /$$$$$$  /$$$$$$$   /$$$$$$  /$$$$$$   /$$$$$$$  /$$$$$$ 
@@ -88,6 +92,9 @@ final class AsciiPlugin implements PluginInterface, EventSubscriberInterface
 | $$    $$| $$  | $$| $$  | $$| $$      /$$__  $$| $$  | $$| $$  | $$
 |  $$$$$$/|  $$$$$$/| $$  | $$| $$     |  $$$$$$$|  $$$$$$$|  $$$$$$/
  \______/  \______/ |__/  |__/|__/      \_______/ \_______/ \______/
+ 
+
+----------------------------------------------------------------------
 
 ASCII;
 
